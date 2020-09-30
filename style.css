@@ -2,3 +2,70 @@ body{
   background-color: yellow;
   color: navy;
 }
+
+h1{
+  color: yellow;
+}
+
+h2{
+  color:yellow;
+}
+nav ul li:hover{
+  background-color: white;
+}
+.bodywrap {
+  display: grid;
+  grid-gap:10px;
+  background-color: navy;
+}
+
+.grid-item{
+  color: yellow;
+  background-color: navy;
+}
+
+.headc{
+  grid-column: 1
+}
+
+.leftc{
+
+  grid-column: 1;
+  grid-row: 2;
+  
+}
+
+.mainc{
+  grid-column:3;
+  grid-row: 2;
+}
+
+ul li {
+  color: yellow;
+}
+
+.recipe {
+  display: grid;
+}
+
+.ingredients{
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.dairy{
+  background-color:rgba(255, 251, 0, 0.438);
+}
+
+.meat{
+  background-color: red;
+}
+
+.veg{
+  background-color:green;
+}
+
+ol li{
+  color: yellow;
+  font-style: italic;
+}
