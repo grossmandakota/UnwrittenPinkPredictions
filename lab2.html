@@ -10,24 +10,28 @@
   </head>
   <body>
     <div class = "bodywrap">
-      <div class = "grid-item leftc">
-        <nav>
+        <nav id= "grid-item leftc">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="lab1.html">Lab 1</a></li>
             <li><a href="lab2.html">Lab 2</a></li>
             <li><a href="lab3.html">Lab 3</a></li>
             <li><a href="lab4.html">Lab 4</a></li>
+            <li><a href="lab5.html">Lab 5</a></li>
           </ul>
         </nav>
-        </div>
+      
       <main>
-        <div class = "headc">
-          <h1>Internet Programming Lab 2</h1>
-        </div>
+        
+          <h1 id= "headc">Internet Programming Lab 2</h1>
       </main>
     </div>
   </body>
   <footer>
-    <p>this is a footer</p>
+    <p>Email: dakotag108@gmail.com</p>
+        <p>page was last modified: <span id="lastdate"></span></p>
+
+        <script>
+          document.getElementById("lastdate").innerHTML = document.lastModified;
+        </script>
   </footer>

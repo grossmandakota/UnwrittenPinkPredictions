@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <header>
+      <title>CPSC 2125 Lab 5</title>
+    </header>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form method="post"action= "https://webdevbasics.net/scripts/yoga.php">
+    <fieldset class="personalinfo">
+      <Legend>Personal info</Legend>
+    
+    <label for="firstname"> First Name: </label><input type="text" id="firstname" name="firstname" required = 
+    "required"><br>
+    <label for="lastname"> Last Name: </label><input type="text" id="lastname" name="lastname" required = 
+    "required"><br>
+    <label for="memail"> Email: </label><input type="email" id="memail" name="memail" required="required"><br>
+
+    <label for "state"> Choose your state: </label>
+    <select name="states" id="states" required="required">
+      <option value="al">AL</option>
+      <option value="fl">FL</option>
+      <option value="ga">GA</option>
+    </select><br><br>
+
+    <input type="radio" id="married" name="maritalstat" value="married"> <label for="single">Single</label><br>
+    <input type="radio" id="single" name="maritalstat" value="single"><label for="married">Married</label><br>
+    </fieldset>
+
+    <fieldset class="misc">
+      <Legend>Misc.</Legend>
+
+      <input type="checkbox" id="python" name="python" value="Python"><label for="python">Python</label>
+      <input type="checkbox" id="java" name="java" value="Java"><label for="java">Java</label>
+      <input type="checkbox" id="htmllang" name="htmllang" value="Html"><label for="htmllang">HTML</label><br><br>
+
+      <label for="comments"> Comments: </label>
+      <textarea id ="comments" name="comments" rows="4"columns="10">Leave any comments here! </textarea><br><br>
+
+      <input type="checkbox" id="gradecheck" name="gradecheck" value="gc" required="required"><label for="htmllang">Check this if Dakota did very well on this assignment. A required checkbox.</label><br>
+    </fieldset>
+    <br>
+    <input type="submit" value="submit">
+    </form>
+
+  </body>
+  <footer>
+    <p>Email: dakotag108@gmail.com</p>
+        <p>page was last modified: <span id="lastdate"></span></p>
+
+        <script>
+          document.getElementById("lastdate").innerHTML = document.lastModified;
+        </script>
+  </footer>
+</html>

@@ -1,14 +1,14 @@
 body{
-  background-color: yellow;
-  color: navy;
+  background-color: white;
+  color: gray;
 }
 
 h1{
-  color: yellow;
+  color:gainsboro;
 }
 
 h2{
-  color:yellow;
+  color: gainsboro;
 }
 nav ul li:hover{
   background-color: white;
@@ -16,32 +16,32 @@ nav ul li:hover{
 .bodywrap {
   display: grid;
   grid-gap:10px;
-  background-color: navy;
+  background-color: gray;
 }
 
-.grid-item{
-  color: yellow;
-  background-color: navy;
+#grid-item{
+  color: white;
+  background-color: gray;
 }
 
-.headc{
+#headc{
   grid-column: 1
 }
 
-.leftc{
+#leftc{
 
   grid-column: 1;
   grid-row: 2;
   
 }
 
-.mainc{
+#mainc{
   grid-column:3;
   grid-row: 2;
 }
 
 ul li {
-  color: yellow;
+  color: gray;
 }
 
 .recipe {
@@ -68,4 +68,8 @@ ul li {
 ol li{
   color: yellow;
   font-style: italic;
+}
+
+footer{
+  color:black;
 }

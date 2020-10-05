@@ -11,8 +11,7 @@
   <body>
     <h1>Internet Programming Lab 1</h1>
     <div class = "bodywrap">
-      <div class = "grid-item leftc">
-        <nav>
+        <nav id = "grid-item leftc">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="lab1.html">Lab 1</a></li>
@@ -21,18 +20,21 @@
             <li><a href="lab4.html">Lab 4</a></li>
           </ul>
         </nav>
-      </div>
-      <div class = "grid-item mainc">
-        <main>
+        <main id = "grid-item mainc">
           
           <h1> This is the first, largest heading. </h1>
           <h2> This is another heading. It is smaller, but no less valuable than heading 1. </h2>
           <p>This is a paragraph. I can compose many sentences here. Preferably 3-4. But who knows.</p>
           <img src = "https://www.vets4pets.com/siteassets/species/cat/kitten/tiny-kitten-in-field.jpg?width=1040">
         </main>
-      </div>
+      
     </div>
   </body>
   <footer>
-    <p>this is a footer</p>
+    <p>Email: dakotag108@gmail.com</p>
+        <p>page was last modified: <span id="lastdate"></span></p>
+
+        <script>
+          document.getElementById("lastdate").innerHTML = document.lastModified;
+        </script>
   </footer>
